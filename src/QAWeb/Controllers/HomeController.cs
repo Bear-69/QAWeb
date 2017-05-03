@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
 
-namespace QAWeb.Controllers
+namespace DevWeb.Controllers
 {
     public class HomeController : Controller
     {
@@ -29,6 +29,12 @@ namespace QAWeb.Controllers
 
         public IActionResult Error()
         {
+            return View();
+        }
+        public IActionResult Projects()
+        {
+            ViewData["Message"] = "Current Development Projects.";
+
             return View();
         }
     }

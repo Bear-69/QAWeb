@@ -9,11 +9,11 @@ using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Mvc.Rendering;
 using Microsoft.Data.Entity;
 using Microsoft.Extensions.Logging;
-using QAWeb.Models;
-using QAWeb.Services;
-using QAWeb.ViewModels.Account;
+using DevWeb.Models;
+using DevWeb.Services;
+using DevWeb.ViewModels.Account;
 
-namespace QAWeb.Controllers
+namespace DevWeb.Controllers
 {
     [Authorize]
     public class AccountController : Controller

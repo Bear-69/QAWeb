@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Http.Authentication;
 using Microsoft.AspNet.Identity;
 
-namespace QAWeb.ViewModels.Manage
+namespace DevWeb.ViewModels.Manage
 {
     public class ManageLoginsViewModel
     {

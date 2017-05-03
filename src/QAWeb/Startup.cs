@@ -9,10 +9,10 @@ using Microsoft.Data.Entity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using QAWeb.Models;
-using QAWeb.Services;
+using DevWeb.Models;
+using DevWeb.Services;
 
-namespace QAWeb
+namespace DevWeb
 {
     public class Startup
     {

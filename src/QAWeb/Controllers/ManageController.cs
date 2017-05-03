@@ -7,11 +7,11 @@ using Microsoft.AspNet.Authorization;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Mvc;
 using Microsoft.Extensions.Logging;
-using QAWeb.Models;
-using QAWeb.Services;
-using QAWeb.ViewModels.Manage;
+using DevWeb.Models;
+using DevWeb.Services;
+using DevWeb.ViewModels.Manage;
 
-namespace QAWeb.Controllers
+namespace DevWeb.Controllers
 {
     [Authorize]
     public class ManageController : Controller
